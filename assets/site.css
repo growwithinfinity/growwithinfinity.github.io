@@ -427,3 +427,6 @@ a{color:inherit}
 .amt{font:300 40px/1 var(--sans);font-variant-numeric:tabular-nums;text-align:center;margin-top:6px}
 .qrbox{width:120px;height:120px;border-radius:12px;background:#fff;padding:10px;box-shadow:0 0 0 1px #ddd;margin:8px auto}
 .qrbox svg{width:100%;height:100%;display:block}
+
+/* hidden panels must not catch clicks: buttons follow their panel */
+.panel .cta,.panel .svcs{pointer-events:inherit}
