@@ -12,7 +12,7 @@
   // ---------- shared content ----------
   var PHONES=[["+917986404564","+91 79864 04564"],["+919877168353","+91 98771 68353"],["+919878225225","+91 98782 25225"],["+919324387537","+91 93243 87537"]];
   var MAIL="searchinfinity@gmail.com";
-  var MAPS="https://www.google.com/maps/search/?api=1&query=Bindra%20Sateri%20Legacy%2C%20MIDC%20Central%20Road%2C%20Andheri%20East%2C%20Mumbai%20400093";
+  var MAPS="https://www.google.com/maps/search/?api=1&query=1313%2C%20B-Block%2C%20New%20Amritsar%2C%20GT%20Road%2C%20Amritsar%2C%20Punjab%20143001";
   var WA="https://wa.me/917986404564?text="+encodeURIComponent("Hi Infinity, I'd like to know more about "+(P.service||"your services")+".");
   var IC={
     star:'<path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z" fill="currentColor"/>',
@@ -65,7 +65,7 @@
     '<section class="panel contact" data-step id="contact" data-pos="top" data-label="Contact">'+
       '<p class="eyebrow">Contact <span class="dot"></span> Infinity</p>'+
       '<h1>'+(P.contactTitle||"Let’s build it <em>for your business.</em>")+'</h1>'+
-      '<p class="sub">Tell us what you need and we’ll plan it with you. Andheri East, Mumbai.</p>'+
+      '<p class="sub">Tell us what you need and we’ll plan it with you. Amritsar, Punjab.</p>'+
       '<div class="cta"><a class="pill" href="'+WA+'" target="_blank" rel="noopener">Chat on WhatsApp</a>'+
       '<div class="calls"><span class="calls-l">Call us</span>'+PHONES.map(function(p){return '<a class="ghost" href="tel:'+p[0]+'">'+p[1]+'</a>';}).join("")+'</div>'+
       '<a class="ghost" href="mailto:'+MAIL+'" title="'+MAIL+'">Email us</a>'+
@@ -84,7 +84,7 @@
         '<a href="#contact" data-step-go="'+(n-1)+'">Contact</a>'+
         '<a class="pill" href="'+WA+'" target="_blank" rel="noopener">Talk to us</a></nav></header>'+
     '<nav class="chap" id="chap" aria-label="Chapters">'+chapHTML+'</nav>'+
-    '<footer class="foot"><span><span class="f-x">Bindra Sateri Legacy, MIDC Central Road, </span>Andheri East &nbsp;&middot;&nbsp; +91 79864 04564<span class="f-x"> &nbsp;&middot;&nbsp; '+MAIL+'</span></span></footer>'+
+    '<footer class="foot"><span><span class="f-x">1313, B-Block, New Amritsar, GT Road, </span>Amritsar &nbsp;&middot;&nbsp; +91 79864 04564<span class="f-x"> &nbsp;&middot;&nbsp; '+MAIL+'</span></span></footer>'+
     '<a class="wa-fab" href="'+WA+'" target="_blank" rel="noopener" aria-label="Chat with Infinity on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.4.8 3.2.7.5-.1 1.5-.6 1.8-1.2.2-.6.2-1.1.1-1.2 0-.1-.2-.2-.5-.3z"/></svg><span>Chat with us</span></a>'+
     '<div class="track" id="track"></div>');
   D.getElementById("track").style.height="calc("+(n*115)+"vh)";
